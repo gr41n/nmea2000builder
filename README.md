@@ -6,7 +6,8 @@ It provides a somewhat modular structure to add new PGNs granted that you know t
 It then calculates everything needed to created a working NMEA string, such as lengths and the CRC
 Special thanks to Fathom5 and their phenomenal Hack the Boat CTF at Defcon. They sparked my interest in this, gave me the foundation I needed to understand NMEA 2000, and answered questions long after the event when I felt stuck.
 And special thanks to some individuals:
-- Anthony Efantis with whome I embarked on the journey of learning the NMEA 2000 protocol with
+- Steven Masley from Fathom5 who taught me a ton of things about the protocol and got me out of a more than one pickle when I was stuck
+- Anthony Efantis with whom I embarked on the journey of learning the NMEA 2000 protocol with
 
 For this script to be more useful, more PGNs must be added. I only had a thermometer to test with, but would like to add more codes in the future, either through access to the manual, or by reverse engineering codes that I have access to. 
 
