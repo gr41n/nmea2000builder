@@ -19,6 +19,3 @@ I would love help! To add PGNs you must do a few things!
 ---Based on that selection, set the variable of "pgn" from the PGN codes section (pgn = pgn_130312) and set the pgn_data variable to call your corresponding function (ie pgn_data = pgn130312_set_temp())
 pgn_data = pgn130312_set_temp())
 
-### ToDo! ###
-\x10\x02 and \x10\x03 must be escaped if they appear anywhere outside of the start and end of a NMEA string. This check must be added...
-"The escape bytes are 0x10, or 16 in decimal. If your payload has a 0x10 byte, you need to prepend a 0x10 before that to escape the data byte." - Steven
